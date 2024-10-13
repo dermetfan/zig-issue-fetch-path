@@ -1,0 +1,12 @@
+.{
+    .name = "zig-issue-fetch-path",
+    .version = "0.0.0",
+    .dependencies = .{
+        .zqlite = .{ .path = "foo" },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
